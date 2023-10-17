@@ -29,7 +29,7 @@ if response.status_code == 200:
         data["Date"].append(date.text)
 
     data_fr = pd.DataFrame(data)
-    data_fr.to_csv("datasets/Fake_Jobs_kawaii.csv")
+    data_fr.to_csv("data_olimpiadas.csv")
 
 
 else:

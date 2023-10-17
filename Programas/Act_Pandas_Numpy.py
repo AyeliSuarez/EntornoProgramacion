@@ -14,7 +14,8 @@ datos = {
 
 dataframe = pd.DataFrame(datos)
 
-# 2 Función que reciba el DataFrame, haga lista de meses, y devuelva el balance total
+# 2 Función que reciba el DataFrame, haga lista de meses,
+# y devuelva el balance total
 
 
 def calc_balance(dataframe, df_meses):
