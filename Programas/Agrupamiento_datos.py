@@ -26,5 +26,5 @@ grupos = data.groupby(["gender", "country"])
 
 #print(grupos.gold.mean())
 
-pivot = data.pivot_table("gold", index="gender", columns="country", margins=True)
+pivot = data.pivot_table("gold", index="gender", columns="country", margins=True, aggfunc=np.sum)
 print(pivot)
