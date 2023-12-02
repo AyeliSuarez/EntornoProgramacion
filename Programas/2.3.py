@@ -1,5 +1,4 @@
 #Ayeli Yaramit Suarez Soria, 951
-
 import pandas as pd
 
 data = {
