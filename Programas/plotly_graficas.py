@@ -5,7 +5,7 @@ from dash import Dash, dcc, html, dash_table, callback, Input, Output
 # dce -----> Dash Core Components
 # html -----> Dash Intel Components
 
-data = pd.read_csv("../Datasets/olimpiadas.csv", index_col=0)
+data = pd.read_csv("olimpiadas.csv", index_col=0)
 
 def dashboard():
     data_pais=data.groupby("country", as_index=False).sum(numeric_only=True)
